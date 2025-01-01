@@ -70,3 +70,9 @@ On `unit`:
 > Expressions implicitly return the unit value
 > if they don’t return any other value.
 
+On statements vs expressions:
+- expressions returns a value (even if unit ()), statements do not but just do an action.
+- expressions do not end in a semicolon(;), statements do.
+- statements can have expressions in them.
+- A final expression (remember no trailing semicolon) in a function is its return value.
+- See rust book 3.3 on functions.
